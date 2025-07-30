@@ -14,8 +14,10 @@ jobs:
     env:
       MONGODB_CONNECTION_PROTOCOL: mongodb+srv
       MONGODB_CLUSTER_ADDRESS: cluster0.tbozp49.mongodb.net
-      MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
-      MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
+
+      MONGODB_USERNAME: soumabkar
+      MONGODB_PASSWORD: 8Jt6TzjDlsi5cIwf
+
       PORT: 8888
     steps:
       - name: Get Code
